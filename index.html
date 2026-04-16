@@ -10,15 +10,22 @@
 <body>
 
 <div class="container">
+
 <h1>🔐 Password Strength</h1>
 
+<div class="input-group">
 <input type="password" id="password" placeholder="Enter secure password">
+<button id="toggle">👁</button>
+</div>
+
+<button id="generate">Generate Secure Password</button>
 
 <div class="meter">
 <div id="strength-bar"></div>
 </div>
 
 <p id="strength-text"></p>
+<p id="entropy"></p>
 
 <ul id="rules">
 <li id="length">At least 8 characters</li>
@@ -27,6 +34,8 @@
 <li id="number">Number</li>
 <li id="special">Special character</li>
 </ul>
+
+<button id="theme">🌙 Toggle Theme</button>
 
 </div>
 
